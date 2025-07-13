@@ -58,7 +58,7 @@ Tools yang kami pakai
 - jalankan [1. ssh-keygen -t rsa] dan [ssh-copy-id user@node2] #isi user dan node2 dengan nama device server dan ipnya
   setelah berhasil coba test login [ssh user@node2] #sesuaikan dengan device
 
-3.       jalankan nano ~/.unison/html-sync.prf
+3.        jalankan nano ~/.unison/html-sync.prf
         isi dengan :
     root = /var/www/html
     root = ssh://user@node 2//var/www/html
